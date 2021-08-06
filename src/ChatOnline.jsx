@@ -7,7 +7,6 @@ export default function ChatOnline() {
                 <div className="chatOnlineImgContainer">
                     <img className= "chatOnlineImg" src="https://i.redd.it/qa03fpfjhkf71.jpg" alt=""/>
                     <div className="chatOnlineBadge">  </div>
-
                 </div>
                 <span className="chatOnlineName"> John Doe  </span>
             </div>

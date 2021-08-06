@@ -1,4 +1,4 @@
-.conversation {
+.friend {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -6,11 +6,11 @@
     margin-top: 20px;
 }
 
-.conversation:hover {
+.friend:hover {
     background-color: rdb(245, 243, 243);
 }
 
-.conversationImg {
+.friendImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -18,6 +18,6 @@
     margin-right: 20px;
 }
 
-.conversationName {
+.friendName {
     font-weight: 500;
 }

@@ -4,7 +4,6 @@
     margin-top: 200px;
 }
 
-
 .messageTop {
     display: flex;
 
@@ -18,13 +17,10 @@
     margin-right: 10px;
 }
 
-
 .messageText {
-    padding:10px;
+    background-color: lightgray;
+    color: black;
     border-radius: 20px;
-    background-color: #1877f2;
-    color: white;
-    max-width: 300 px;
 }
 
 .messageBottom {
@@ -37,6 +33,9 @@
 }
 
 .message.own .messageText {
-    background-color: lightgray;
-    color: black;
+    padding:10px;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: white;
+    max-width: 300 px;
 }

@@ -1,15 +1,17 @@
 import "./messenger.css"
 import React from 'react'
-import Conversation from "./Conversation"
 import Message from "./Message"
 import ChatOnline from "./ChatOnline"
+import Friend from "./Friend"
 export default function Messenger() {
     return (
     <div classname="messenger">
         <div className = "chatMenu"> 
             <div className = "chatMenuWrapper"> 
                 <input placeholder="Search for friends" className="chatMenuInput"/> 
-                <Conversation/>
+                <Friend/>
+                <Friend/>
+                <Friend/>
             </div>
         </div>
 
@@ -17,7 +19,12 @@ export default function Messenger() {
             <div className = "chatBoxWrapper">
                 <div className= "chatBoxTop">
                     <Message/>
-                 
+                    <Message own={true}/>
+                    <Message/>
+                    <Message/>
+                    <Message own={true}/>
+                    <Message/>
+                    <Message/>
                 </div>
 
                 <div className= "ChatBoxBottom">
@@ -28,7 +35,9 @@ export default function Messenger() {
         </div>
 
         <div className = "chatOnline"> 
-            <div classname= "chatOnlineWrapper">
+            <div className= "chatOnlineWrapper">
+                <ChatOnline/>
+                <ChatOnline/>
                 <ChatOnline/>
             </div>
         </div>
